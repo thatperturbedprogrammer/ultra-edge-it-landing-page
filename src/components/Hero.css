@@ -1,0 +1,34 @@
+/* Hero Heading - Bold and Impactful */
+.hero-heading {
+  font-size: 3rem; /* Large and eye-catching */
+  font-weight: 700; /* Bold */
+  text-transform: uppercase; /* All caps for emphasis */
+  color: #333; /* Dark color for contrast */
+  text-align: center;
+  letter-spacing: 2px; /* Spacing for elegance */
+  margin-bottom: 10px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* Hero Subheading - Elegant and Readable */
+.hero-subheading {
+  font-size: 1.5rem; /* Slightly smaller but still readable */
+  font-weight: 400; /* Regular weight for balance */
+  color: #555; /* Softer color for contrast */
+  text-align: center;
+  line-height: 1.6; /* Better readability */
+  max-width: 600px; /* Keeps it from stretching too wide */
+  margin: 0 auto; /* Centers it */
+}
+
+/* Hero Paragraph - Clear and Readable */
+.hero-paragraph {
+  font-size: 1.2rem; /* Slightly smaller than subheading */
+  font-weight: 300; /* Lighter for better readability */
+  color: #666; /* Softer than subheading for contrast */
+  text-align: center;
+  line-height: 1.8; /* Improved readability */
+  max-width: 700px; /* Prevents overly wide text */
+  margin: 10px auto 40px; /* Centers and adds spacing */
+}

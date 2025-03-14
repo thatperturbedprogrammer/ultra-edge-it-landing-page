@@ -1,0 +1,29 @@
+.info-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+.info-card {
+  max-width: 400px; /* Prevents it from being too wide */
+  margin: 12px auto 12px; /* Centers it horizontally */
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers vertically */
+  align-items: center; /* Centers horizontally */
+  text-align: center; /* Ensures text alignment */
+  background-color: #376469;
+  color: rgb(248, 251, 254);
+  padding: 20px;
+  border-bottom-right-radius: 60px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for a clean look */
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover Effect */
+.info-card:hover {
+  background-color: #2b5054;
+  transform: scale(1.05); /* Slight scaling for interactivity */
+}

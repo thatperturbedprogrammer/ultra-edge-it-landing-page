@@ -1,0 +1,51 @@
+/* Address Container */
+.address-div {
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+/* Address List */
+.address-div ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Address Item */
+.address-div li {
+  font-size: 1rem;
+  font-weight: 500;
+  font-weight: 600;
+  color: #1e5052;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+/* Address Text */
+.address-div span p {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .address-div {
+    padding: 15px;
+    max-width: 100%;
+  }
+
+  .address-div h5 {
+    font-size: 1.1rem;
+  }
+
+  .address-div li {
+    font-size: 0.95rem;
+  }
+}
