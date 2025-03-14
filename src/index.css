@@ -24,5 +24,6 @@ body::before {
 @media screen and (max-width: 789px) {
   body {
     font-size: small;
+    overflow-x: hidden;
   }
 }
