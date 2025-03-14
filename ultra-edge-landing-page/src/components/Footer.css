@@ -1,0 +1,31 @@
+/* Footer Container */
+footer {
+  background: #1d3230; /* Dark background for contrast */
+  color: #fff; /* White text for readability */
+  text-align: center;
+  padding: 20px;
+  font-size: 1rem;
+  font-weight: 400;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Footer Text Styling */
+footer p {
+  margin: 0;
+  opacity: 0.8; /* Slight fade effect */
+}
+
+/* Hover Effect */
+footer:hover {
+  opacity: 1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  footer {
+    font-size: 0.9rem;
+    padding: 15px;
+  }
+}

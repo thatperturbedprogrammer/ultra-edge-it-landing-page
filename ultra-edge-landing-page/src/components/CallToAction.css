@@ -1,0 +1,71 @@
+/* CTA Section */
+.cta {
+  display: flex;
+  flex-direction: column; /* Adjusted for vertical stacking */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* CTA Heading */
+.cta h1 {
+  font-size: 3em; /* Keeping your original size */
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* CTA Paragraph */
+.cta p {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  max-width: 700px;
+}
+
+/* CTA Buttons Container */
+.cta-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Primary Button */
+.cta-button {
+  display: inline-block;
+  background: #376469;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 14px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease, transform 0.2s;
+}
+
+.cta-button:hover {
+  background: #2c5256;
+  transform: translateY(-3px);
+}
+
+/* Secondary Button */
+.cta-secondary {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #376469;
+  text-decoration: none;
+  border-bottom: 2px solid #376469;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.cta-secondary:hover {
+  color: #254d51;
+  border-bottom: 2px solid #376469;
+}
